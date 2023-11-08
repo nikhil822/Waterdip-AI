@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Nunito", sans-serif;
+}
+.app .graph {
+  background-color: #fff;
+  width: 700px;
+  margin: 25px auto;
+  padding: 24px 40px;
+  margin-bottom: 42px;
+  border-radius: 7px;
+  box-shadow: 2px 2px 8px 1px rgba(7, 94, 84, 0.24);
+}
+.app .graph .heading {
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 0 0 25px 0;
+}
+.app .graph form {
+  display: flex;
+  align-items: center;
+  padding: 0 0 36px 0;
+}
+.app .graph form .select {
+  margin-right: 21px;
+}
+.app .graph form .select label {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+}
+.app .graph form .select select {
+  width: 75px;
+  height: 27px;
+  font-size: 1rem;
+}
+.app .graph form button {
+  padding: 0 30px;
+  height: 32px;
+  margin-left: 16px;
+}
+@media all and (max-width: 1100px) {
+  .app {
+    margin: 40px 20px;
+  }
+  .app .graph {
+    width: 500px;
+    margin: 0 auto;
+    padding: 18px 27px;
+    margin-bottom: 39px;
+  }
+  .app .graph .heading {
+    font-size: 1.2rem;
+    padding: 0 0 21px 0;
+  }
+  .app .graph form {
+    justify-content: space-between;
+    padding: 0 0 30px 0;
+  }
+  .app .graph form .select {
+    margin-right: 0px;
+  }
+  .app .graph form .select label {
+    font-size: 0.8rem;
+  }
+  .app .graph form .select select {
+    width: 48px;
+    height: 24px;
+    font-size: 0.8rem;
+  }
+  .app .graph form button {
+    padding: 0 30px;
+    height: 27px;
+    margin-left: 0px;
+    font-size: 0.7rem;
+  }
+}
+@media all and (max-width: 700px) {
+  .app {
+    margin: 40px 0px;
+  }
+  .app .graph {
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px 12px;
+    margin-bottom: 40px;
+  }
+  .app .graph .heading {
+    font-size: 1.1rem;
+    padding: 0 0 21px 0;
+  }
+  .app .graph form {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 30px;
+    padding: 0 0 21px 0;
+  }
+  .app .graph form .select {
+    margin-bottom: 12px;
+  }
+  .app .graph form .select label {
+    font-size: 0.8rem;
+  }
+  .app .graph form .select select {
+    width: 48px;
+    height: 24px;
+    font-size: 0.8rem;
+  }
+  .app .graph form button {
+    padding: 0 30px;
+    height: 27px;
+    margin-left: 0px;
+    font-size: 0.7rem;
+  }
+}
